@@ -18,8 +18,9 @@ by sex, and to use a regression model to identify factors assocaited with mortal
 * Mortality by sex
 * Regression model
 
-# Report Description
-**final_report.html**
+# Report Description--Final_report.html
+
+**final_report.html is located in the output**
 * Loads the all the report from the output folder
 * Includes the intro, graphs and also the key points for each visualizations
 
