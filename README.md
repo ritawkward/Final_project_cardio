@@ -54,6 +54,6 @@ by sex, and to use a regression model to identify factors assocaited with mortal
 * This project use renv to ensure the R package environment is fully reproducible. 
 * If you clone this repository, you can just use `make install`
 
-**Potential Problem**
-* If you get an error with the package issues, then create a Rproject with my final project directory, then run 
-`make install`, and `make clean` and `make`
+# Potential Problem
+**If you get an error with the package issues, then create a Rproject with my final project directory, then run 
+`make install`, and `make clean` and `make`**
