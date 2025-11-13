@@ -4,6 +4,10 @@ here::i_am("code/03_regression.R")
 library(dplyr)
 library(gtsummary)
 library(here)
+library(broom)
+library(broom.helpers)
+library(car)
+library(parameters)
 
 data2 <- readRDS(file = here::here("output/data_clean.rds"))
 

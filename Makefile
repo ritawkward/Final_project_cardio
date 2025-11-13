@@ -16,7 +16,12 @@ output/final_report.html: code/04_render_report.R Cardiovascular.Rmd \
                           output/table_one.rds output/figure2_plot.png output/model_table.rds
 	Rscript code/04_render_report.R
 
+.PHONY: install
+install:
+	Rscript -e "renv::restore(prompt = FALSE)"
+
 clean:
 	rm -f output/*.rds
 	rm -f output/*.png
 	rm -f output/*.html
+	

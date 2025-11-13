@@ -50,5 +50,7 @@ by sex, and to use a regression model to identify factors assocaited with mortal
 * Use the render() to finalize the report (Cardiovascular.Rmd)
 * Output saved to `output/final_report.html`
 
-
+**Synchronize your package repository**
+* This project use renv to ensure the R package environment is fully reproducible. 
+* If you clone this repository, you can just use `make install`
 
