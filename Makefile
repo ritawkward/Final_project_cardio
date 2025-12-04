@@ -16,6 +16,10 @@ output/final_report.html: code/04_render_report.R Cardiovascular.Rmd \
                           output/table_one.rds output/figure2_plot.png output/model_table.rds
 	Rscript code/04_render_report.R
 
+docker-report:
+	docker run -v "$$(pwd)/final_report":/home/rstudio/project/final_report \
+		teddyyylalala/data550_final
+
 .PHONY: install
 install:
 	Rscript -e "renv::restore(prompt = FALSE)"

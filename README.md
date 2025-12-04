@@ -54,6 +54,22 @@ by sex, and to use a regression model to identify factors assocaited with mortal
 * This project use renv to ensure the R package environment is fully reproducible. 
 * If you clone this repository, you can just use `make install`
 
+**Make Rule--for the renv**
+* Make Install
+* Make Clean
+* Make
+
 # Potential Problem
 **If you get an error with the package issues, then create a Rproject with my final project directory, then run 
 `make install`, and `make clean` and `make`**
+
+# Running the Docker file
+* The report can be built by running the Makefile target docker-report.
+* The `final_report` folder will be created automatically if it does not already exist
+
+## Build the report (Mac/Linux)
+* From your local computer, run `make docker-report`
+* Output the final HTML report to `final_report/final_report.html`
+
+
+
