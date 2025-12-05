@@ -63,11 +63,15 @@ by sex, and to use a regression model to identify factors assocaited with mortal
 **If you get an error with the package issues, then create a Rproject with my final project directory, then run 
 `make install`, and `make clean` and `make`**
 
+# Docker Build
+* This project uses Docker and Make to generate a fully reproducible HTML report.
+* The Docker image can be built using `make docker-build`
+
 # Running the Docker file
 * The report can be built by running the Makefile target docker-report.
 * The `final_report` folder will be created automatically if it does not already exist
 
-## Build the report (Mac/Linux)
+## Build the report (Mac)
 * From your local computer, run `make docker-report`
 * Output the final HTML report to `final_report/final_report.html`
 
